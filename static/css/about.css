@@ -26,9 +26,7 @@ html{background-color: #1d1d35}
 
 #logo{
     float: right;
-    height: calc(15vw + 10px);
-    padding-left: 1em;
-    padding-top: 2em;
+    height: calc(12.8vw + 10px);
 }
 
 .text{
@@ -42,4 +40,9 @@ html{background-color: #1d1d35}
     font-size: calc(1vw + 10px);
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    #logo{
+        float: right;
+        height: calc(15vw + 10px);
+    }
+}
