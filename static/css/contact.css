@@ -41,4 +41,10 @@ table{
     padding: calc(1vw + 10px);
 }
 
+#smol{
+    color: white;
+    font-size: calc(0.5vw + 10px);
+    padding-top: calc(2.5vw + 10px);
+}
+
 @media only screen and (max-width: 600px) {}
