@@ -1,0 +1,14 @@
+html{background-color: #1d1d35}
+
+.no_horny{
+    text-align: center;
+    height: calc(43vw + 10px);
+}
+
+@media only screen and (max-width: 600px) {
+    .no_horny{
+        text-align: center;
+        height: calc(100vw + 10px);
+        padding-top: 4em;
+    }
+}

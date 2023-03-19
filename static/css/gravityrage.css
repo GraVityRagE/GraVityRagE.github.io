@@ -1,0 +1,42 @@
+html{background-color: #1d1d35}
+
+.nav{
+    background-color: #1d1d35;
+    text-align: center;
+}
+
+.nav a{
+    color: grey;
+    text-align: center;
+    padding: 0.5em;
+    font-size: calc(1.5vw + 10px);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #ec574a;
+    color: #1d1d35;
+}
+
+.nav a.active{
+    background-color: #ef3d2c;
+    color: white;
+}
+
+#GraVityRagE{
+    color: white;
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: calc(1vw + 10px);
+    text-align: justify;
+    margin-top: calc(1vw + 10px);
+    margin-left: calc(4vw + 10px);
+    margin-right: calc(4vw + 10px);
+}
+
+.gvre{
+    height: calc(20vw + 10px);
+}
+
+@media only screen and (max-width: 600px) {}
