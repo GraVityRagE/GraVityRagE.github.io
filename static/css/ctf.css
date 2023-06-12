@@ -42,7 +42,6 @@ table, tr, th, td{
     margin-right: auto;
     font-family: sans-serif;
     font-size: calc(1vw + 10px);
-    /* border: 1px solid white; */
 }
 
 #header{
@@ -81,6 +80,24 @@ table, tr, th, td{
     height: calc(20vw + 10px);
     padding-right: calc(8vw + 10px);
 }
+
+::-webkit-scrollbar {
+    width: calc(0.2vw + 5px);
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: calc(1vw + 5px);
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #ef3d2c; 
+    border-radius: 10px;
+    width: calc(0.2vw + 5px);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ec574a; 
+  }
 
 @media only screen and (max-width: 600px) {
     .kl{

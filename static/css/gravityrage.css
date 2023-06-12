@@ -39,4 +39,22 @@ html{background-color: #1d1d35}
     height: calc(20vw + 10px);
 }
 
+::-webkit-scrollbar {
+    width: calc(0.2vw + 5px);
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: calc(1vw + 5px);
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #ef3d2c; 
+    border-radius: 10px;
+    width: calc(0.2vw + 5px);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ec574a; 
+  }
+
 @media only screen and (max-width: 600px) {}
