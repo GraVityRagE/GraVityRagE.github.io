@@ -57,21 +57,21 @@ table{
 
 ::-webkit-scrollbar {
     width: calc(0.2vw + 5px);
-  }
+}
 
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     border-radius: calc(1vw + 5px);
-  }
+}
    
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #ef3d2c; 
     border-radius: 10px;
     width: calc(0.2vw + 5px);
-  }
+}
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #ec574a; 
-  }
+}
 
 @media only screen and (max-width: 600px) {
     #hi{
