@@ -111,13 +111,14 @@ td{
     #row1{
         margin: auto;
         margin-top: 10%;
+        margin-bottom: 1%;
         width: 90%;
     }
 
     .project{
         width: fit-content;
         display: inline-block;
-        margin: calc(0.1vw + 2px);
+        margin: calc(0.1vw + 1px);
         border: 1px solid white;
         border-radius: 5%;
     }
