@@ -24,23 +24,66 @@ html{background-color: #1d1d35}
     color: white;
 }
 
-table{
+/* table{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
+    margin-top: 5%;
+    border-spacing: calc(1em + 10px);
 }
 
 td{
+    border: 1px solid white;
+    border-radius: 5%;
+} */
+
+#row1{
+    margin: auto;
+    margin-top: 2%;
+    width: 73%;
+}
+
+#row2{
+    margin: auto;
+    width: 50%;
+}
+
+.project{
+    width: fit-content;
+    display: inline-block;
+    margin: calc(0.5vw + 10px);
     border: 1px solid white;
     border-radius: 5%;
 }
 
 #gravityrage{
     height: calc(20vw + 10px);
-    border-radius: 5%;
+    border-radius: 7%;
 }
 
 .GraVityRagE{
+    text-align: center;
+    color: white;
+    font-size: calc(1vw + 10px);
+}
+
+.img{
+    height: calc(20vw + 10px);
+    border-radius: 5%;
+}
+
+.PeerView{
+    text-align: center;
+    color: white;
+    font-size: calc(1vw + 10px);
+}
+
+.CTFsite{
+    text-align: center;
+    color: white;
+    font-size: calc(1vw + 10px);
+}
+
+.Unknown{
     text-align: center;
     color: white;
     font-size: calc(1vw + 10px);
@@ -64,4 +107,32 @@ td{
     background: #ec574a; 
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    #row1{
+        margin: auto;
+        margin-top: 10%;
+        width: 90%;
+    }
+
+    .project{
+        width: fit-content;
+        display: inline-block;
+        margin: calc(0.1vw + 2px);
+        border: 1px solid white;
+        border-radius: 5%;
+    }
+
+    .img{
+        height: calc(23.5vw + 10px);
+    }
+
+    #gravityrage{
+        height: calc(23.5vw + 10px);
+        border-radius: 7%;
+    }
+
+    #row2{
+        margin: auto;
+        width: 59%;
+    }
+}

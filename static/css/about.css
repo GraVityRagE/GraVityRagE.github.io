@@ -60,6 +60,7 @@ html{background-color: #1d1d35}
 
 @media only screen and (max-width: 600px) {
     #logo{
+        margin-top: 7%;
         float: right;
         height: calc(15vw + 10px);
     }

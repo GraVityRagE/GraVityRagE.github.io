@@ -1,0 +1,56 @@
+html{background-color: #1d1d35}
+
+.nav{
+    background-color: #1d1d35;
+    text-align: center;
+}
+
+.nav a{
+    color: grey;
+    text-align: center;
+    padding: 0.5em;
+    font-size: calc(1.5vw + 10px);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #ec574a;
+    color: #1d1d35;
+}
+
+.nav a.active{
+    background-color: #ef3d2c;
+    color: white;
+}
+
+#PeerView{
+  color: white;
+  font-family: sans-serif;
+  line-height: 2;
+  font-size: calc(1vw + 10px);
+  text-align: justify;
+  margin-top: calc(1vw + 10px);
+  margin-left: calc(4vw + 10px);
+  margin-right: calc(4vw + 10px);
+}
+
+::-webkit-scrollbar {
+  width: calc(0.2vw + 5px);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: calc(1vw + 5px);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ef3d2c; 
+  border-radius: 10px;
+  width: calc(0.2vw + 5px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ec574a; 
+}
+
+@media only screen and (max-width: 600px) {}
