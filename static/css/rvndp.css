@@ -1,7 +1,4 @@
-html{
-  background-color: #1d1d35;
-  overflow-x: hidden;
-}
+html{background-color: #1d1d35}
 
 .nav{
     background-color: #1d1d35;
@@ -27,7 +24,7 @@ html{
     color: white;
 }
 
-#PeerView{
+#rvndp{
   color: white;
   line-height: 2;
   font-family: sans-serif;
@@ -39,16 +36,7 @@ html{
 }
 
 .img{
-  height: calc(18vw + 10px);
-}
-
-.flex{
-  display: flex;
-  justify-content: space-around;
-}
-
-h2{
-  margin-top: calc(5vw + 10px);
+    height: calc(18vw + 10px);
 }
 
 ::-webkit-scrollbar {
@@ -69,8 +57,4 @@ h2{
   background: #ec574a; 
 }
 
-@media only screen and (max-width: 600px) {
-  .img{
-    height: calc(15vw + 10px);
-  }
-}
+@media only screen and (max-width: 600px) {}

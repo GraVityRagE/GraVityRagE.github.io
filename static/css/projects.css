@@ -24,11 +24,17 @@ html{background-color: #1d1d35}
     color: white;
 }
 
-/* table{
+/* #table1{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    border-spacing: calc(1em + 10px);
+    margin-top: calc(3vw + 10px);
+    border-spacing: calc(2em + 10px);
+}
+
+#table2{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: calc(2em + 10px);
 }
 
 td{
@@ -36,15 +42,22 @@ td{
     border-radius: 5%;
 } */
 
-#row1{
+#flex{
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    margin-top: 2%;
-    width: 73%;
+    margin-bottom: calc(2vw + 10px);
+}
+
+#row1{
+    display: flex;
+    margin: auto;
+    margin-top: calc(4vw + 10px);
 }
 
 #row2{
+    display: flex;
     margin: auto;
-    width: 50%;
 }
 
 .project{
@@ -60,18 +73,24 @@ td{
     border-radius: 7%;
 }
 
-.GraVityRagE{
+.desc{
     text-align: center;
     color: white;
     font-size: calc(1vw + 10px);
 }
+
+/* .GraVityRagE{
+    text-align: center;
+    color: white;
+    font-size: calc(1vw + 10px);
+} */
 
 .img{
     height: calc(20vw + 10px);
     border-radius: 5%;
 }
 
-.PeerView{
+/* .PeerView{
     text-align: center;
     color: white;
     font-size: calc(1vw + 10px);
@@ -87,7 +106,7 @@ td{
     text-align: center;
     color: white;
     font-size: calc(1vw + 10px);
-}
+} */
 
 ::-webkit-scrollbar {
     width: calc(0.2vw + 5px);
@@ -108,32 +127,46 @@ td{
 }
 
 @media only screen and (max-width: 600px) {
-    #row1{
+    /* #table1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: calc(30vw + 10px);
+        border-spacing: calc(1vw + 10px);
+    } */
+
+    /* #row1{
         margin: auto;
         margin-top: 10%;
         margin-bottom: 1%;
         width: 90%;
-    }
+    } */
 
     .project{
         width: fit-content;
         display: inline-block;
-        margin: calc(0.1vw + 1px);
+        margin: calc(1.5vw + 1px);
         border: 1px solid white;
         border-radius: 5%;
-    }
+    } 
 
     .img{
-        height: calc(23.5vw + 10px);
+        height: calc(24vw + 10px);
     }
 
     #gravityrage{
-        height: calc(23.5vw + 10px);
+        height: calc(24vw + 10px);
         border-radius: 7%;
     }
 
-    #row2{
+    #flex{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: calc(20vw + 10px);
+    }
+
+    /* #row2{
         margin: auto;
         width: 59%;
-    }
+    } */
 }

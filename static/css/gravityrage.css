@@ -25,18 +25,18 @@ html{background-color: #1d1d35}
 }
 
 #GraVityRagE{
-    color: white;
-    font-family: sans-serif;
-    line-height: 2;
-    font-size: calc(1vw + 10px);
-    text-align: justify;
-    margin-top: calc(1vw + 10px);
-    margin-left: calc(4vw + 10px);
-    margin-right: calc(4vw + 10px);
+  color: white;
+  line-height: 2;
+  font-family: sans-serif;
+  font-size: calc(1vw + 10px);
+  text-align: justify;
+  margin-top: calc(1vw + 10px);
+  margin-left: calc(4vw + 10px);
+  margin-right: calc(4vw + 10px);
 }
 
 .gvre{
-    height: calc(20vw + 10px);
+  height: calc(20vw + 10px);
 }
 
 ::-webkit-scrollbar {

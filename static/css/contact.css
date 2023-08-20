@@ -27,24 +27,30 @@ html {background-color: #1d1d35}
 #contact_me{
     color: white;
     font-family: sans-serif;
-    margin-top: calc(1vw + 10px);
     margin-left: calc(4vw + 10px);
     margin-right: calc(4vw + 10px);
 }
 
 table{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(4vw + 10px);
 }
 
 .img{
     height: calc(10vw + 10px);
-    padding: calc(1vw + 10px);
+    padding: calc(3vw + 10px);
+}
+
+.img:hover{
+    filter: brightness(0.8);
 }
 
 #smol{
     color: white;
-    font-size: calc(0.5vw + 10px);
-    padding-top: calc(1.5vw + 10px);
+    font-size: calc(0.7em + 10px);
+    margin-top: calc(8vw + 10px);
+    margin-left: calc(4vw + 10px)
 }
 
 ::-webkit-scrollbar {
@@ -65,4 +71,18 @@ table{
     background: #ec574a; 
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: calc(30vw + 10px);
+        margin-bottom: calc(30vw + 10px);
+    }
+
+    #smol{
+        color: white;
+        font-size: calc(0.7em + 10px);
+        margin-left: calc(4vw + 10px);
+        margin-right: calc(2vw + 10px);
+    }
+}
