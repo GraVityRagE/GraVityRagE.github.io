@@ -95,4 +95,78 @@ table{
     #smol{
         font-size: calc(0.5vw + 10px);
     }
+
+    /* peerview */
+    .img{
+        height: calc(15vw + 10px);
+      }
 }
+
+/* about */
+.text{
+    text-align: justify;
+    line-height: 2;
+    color: white;
+    margin-top: calc(1vw + 10px);
+    margin-left: calc(4vw + 10px);
+    margin-right: calc(4vw + 10px);
+    font-family: sans-serif;
+    font-size: calc(1vw + 10px);
+}
+
+/* gravityrage */
+#GraVityRagE{
+    color: white;
+    line-height: 2;
+    font-family: sans-serif;
+    font-size: calc(1vw + 10px);
+    text-align: justify;
+    margin-top: calc(1vw + 10px);
+    margin-left: calc(4vw + 10px);
+    margin-right: calc(4vw + 10px);
+  }
+  
+  .gvre{
+    height: calc(20vw + 10px);
+  }
+
+/* peerview */
+#PeerView{
+    color: white;
+    line-height: 2;
+    font-family: sans-serif;
+    font-size: calc(1vw + 10px);
+    text-align: justify;
+    margin-top: calc(1vw + 10px);
+    margin-left: calc(4vw + 10px);
+    margin-right: calc(4vw + 10px);
+  }
+  
+  .img{
+    height: calc(18vw + 10px);
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .h2{
+    margin-top: calc(5vw + 10px);
+  }
+
+/* rvndp */
+#rvndp{
+    color: white;
+    line-height: 2;
+    font-family: sans-serif;
+    font-size: calc(1vw + 10px);
+    text-align: justify;
+    margin-top: calc(1vw + 10px);
+    margin-left: calc(4vw + 10px);
+    margin-right: calc(4vw + 10px);
+  }
+  
+  .img2{
+      height: calc(18vw + 10px);
+  }
